@@ -1,0 +1,17 @@
+fields:
+  button: Parfumix\FormBuilder\Elements\Button
+  checkbox: Parfumix\FormBuilder\Elements\CheckBox
+  date: Parfumix\FormBuilder\Elements\Date
+  email: Parfumix\FormBuilder\Elements\Email
+  file: Parfumix\FormBuilder\Elements\File
+  hidden: Parfumix\FormBuilder\Elements\Hidden
+  label: Parfumix\FormBuilder\Elements\Label
+  password: Parfumix\FormBuilder\Elements\Password
+  radio: Parfumix\FormBuilder\Elements\RadioButton
+  select: Parfumix\FormBuilder\Elements\Select
+  text: Parfumix\FormBuilder\Elements\Text
+  textarea: Parfumix\FormBuilder\Elements\TextArea
+  link: Parfumix\FormBuilder\Elements\Link
+  image: Parfumix\FormBuilder\Elements\Image
+  fieldset: Parfumix\FormBuilder\Elements\Fieldset
+  custom: Parfumix\FormBuilder\Elements\Custom

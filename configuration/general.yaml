@@ -11,6 +11,7 @@ fields:
   select: Parfumix\FormBuilder\Elements\Select
   text: Parfumix\FormBuilder\Elements\Text
   textarea: Parfumix\FormBuilder\Elements\TextArea
+  wysiwyg: Parfumix\FormBuilder\Elements\Wysiwyg
   link: Parfumix\FormBuilder\Elements\Link
   image: Parfumix\FormBuilder\Elements\Image
   fieldset: Parfumix\FormBuilder\Elements\Fieldset

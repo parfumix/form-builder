@@ -12,6 +12,7 @@ fields:
   text: Parfumix\FormBuilder\Elements\Text
   textarea: Parfumix\FormBuilder\Elements\TextArea
   wysiwyg: Parfumix\FormBuilder\Elements\Wysiwyg
+  leaflet: Parfumix\FormBuilder\Elements\Leaflet
   link: Parfumix\FormBuilder\Elements\Link
   image: Parfumix\FormBuilder\Elements\Image
   fieldset: Parfumix\FormBuilder\Elements\Fieldset

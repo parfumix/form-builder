@@ -197,6 +197,10 @@ function element_select($label, $attributes = array()) {
     return get_element('select', ['label' => $label] + $attributes);
 }
 
+function element_image($label, $attributes = array()) {
+    return get_element('image', ['label' => $label] + $attributes);
+}
+
 function element_textarea($label, $attributes = array()) {
     return get_element('textarea', ['label' => $label] + $attributes);
 }

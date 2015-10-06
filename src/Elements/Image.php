@@ -4,6 +4,10 @@ namespace Parfumix\FormBuilder\Elements;
 
 class Image extends Input {
 
+    protected $attributes = array(
+        'type' => 'image',
+    );
+
     /**
      * Render link
      *

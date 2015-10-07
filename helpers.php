@@ -144,13 +144,12 @@ function get_element($alias, $attributes = array()) {
 /**
  * Get instance of element custom .
  *
- * @param $value
  * @param array $attributes
  * @return mixed
  * @throws ElementException
  */
-function element_custom($value, $attributes = array()) {
-    return get_element('custom', ['value' => $value] + $attributes);
+function element_custom($attributes = array()) {
+    return get_element('custom', $attributes);
 }
 
 function element_link($label, $attributes = array()) {

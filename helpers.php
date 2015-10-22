@@ -3,6 +3,7 @@
 namespace Parfumix\FormBuilder;
 
 use Parfumix\FormBuilder\Elements\Button;
+use Parfumix\FormBuilder\Elements\Submit;
 
 /**
  * Create form
@@ -104,6 +105,17 @@ function render_fields($fields, $form) {
  */
 function render_button(array $attributes = array()) {
     return (new Button($attributes))
+        ->render();
+}
+
+/**
+ * Render submit button .
+ *
+ * @param array $attributes
+ * @return string
+ */
+function render_submit(array $attributes = array()) {
+    return (new Submit($attributes))
         ->render();
 }
 

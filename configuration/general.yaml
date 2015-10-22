@@ -1,5 +1,6 @@
 fields:
   button: Parfumix\FormBuilder\Elements\Button
+  submit: Parfumix\FormBuilder\Elements\Submit
   checkbox: Parfumix\FormBuilder\Elements\CheckBox
   date: Parfumix\FormBuilder\Elements\Date
   email: Parfumix\FormBuilder\Elements\Email

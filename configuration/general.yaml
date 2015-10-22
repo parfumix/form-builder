@@ -11,6 +11,7 @@ fields:
   radio: Parfumix\FormBuilder\Elements\RadioButton
   select: Parfumix\FormBuilder\Elements\Select
   text: Parfumix\FormBuilder\Elements\Text
+  number: Parfumix\FormBuilder\Elements\Number
   textarea: Parfumix\FormBuilder\Elements\TextArea
   wysiwyg: Parfumix\FormBuilder\Elements\Wysiwyg
   leaflet: Parfumix\FormBuilder\Elements\Leaflet

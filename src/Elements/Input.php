@@ -38,14 +38,11 @@ abstract class Input extends Element {
         $result = $this->before;
 
         if( $this->hasLabel() )
-            $result .= '<label>' . $this->getLabel();
+            $result .= '<label>' . $this->getLabel() . '</label>';
 
         $result .= '<input';
         $result .= $this->renderAttributes();
         $result .= '>';
-
-        if( $this->hasLabel() )
-            $result .= '</label>';
 
         $result .= $this->after;
 
